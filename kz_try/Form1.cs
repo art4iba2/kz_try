@@ -64,7 +64,7 @@ namespace kz_try
             var f = first.second.Result
                 .OfType<first.second.third>()
                 
-                .Select(x => x.date5);
+                .Select(x => x.int1 );
 
             foreach (var r in f)
             {
